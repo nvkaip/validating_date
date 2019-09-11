@@ -18,8 +18,8 @@ public class DateTimeUtil {
      *    - fromDate может быть в прошлом, toDate должен быть в будующем, в том числе до указанной
      *    даты включительно. Пример - контракт подписан давно, но внесен в систему только сейчас
      *    и действует до указанной даты включительно.
-     * @param fromIsFuture true, если дата должна быть в будущем
-     * @param toIsFuture true, если дата должна быть в будущем
+     * @param fromIsFuture true, если дата "fromDate" должна быть в будущем
+     * @param toIsFuture true, если дата "toDate" должна быть в будущем
      * @param notSameDates true, если даты не могут обозначать один и тот же день
      * @return метод возвращает true или кидает ошибку DateTimeException
      */
